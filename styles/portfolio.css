@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -9,7 +9,7 @@ body {
     /* margin-top: -50px; */
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right, 50px;
 }
 
 .text-primary {
@@ -30,7 +30,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 300px;
+    padding: 50px 300px;
 }
 
 .nav-titile {
@@ -59,7 +59,7 @@ nav li {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
-    margin-bottom: -50px;
+    margin-bottom: 5px;
 }
 
 .banner-title {
