@@ -31,7 +31,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 300px;
-
 }
 
 .nav-titile {
@@ -59,9 +58,12 @@ nav li {
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
+    color: #474747;
+    margin-bottom: -50px;
 }
 
 .banner-title {
+    color: #181818;
     font-weight: 700;
     font-size: 85px;
     margin-bottom: 20px;
@@ -70,6 +72,7 @@ nav li {
 .banner-description {
     color: #757575;
     font-size: 18px;
+    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -156,4 +159,54 @@ main {
 
 .skill-description {
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* resume styles */
+.resume-heading {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.resume-content {
+    display: flex;
+    margin-top: 110px;
+    gap: 24px;
+}
+
+.resume-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
 }
